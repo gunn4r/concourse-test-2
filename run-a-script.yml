@@ -12,3 +12,5 @@ inputs:
 run:
   path: sh
   args: [run-a-script-resource/the-script.sh]
+
+# adding a comment
