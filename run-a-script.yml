@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+- name: multi-tasks-resource
+- name: run-a-script-resource
+  path: ./
+
+run:
+  path: run-a-script-resource/the-script.sh
