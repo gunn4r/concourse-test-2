@@ -6,7 +6,6 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: multi-tasks-resource
 - name: run-a-script-resource
 
 run:
