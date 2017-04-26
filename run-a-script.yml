@@ -10,4 +10,5 @@ inputs:
 - name: run-a-script-resource
 
 run:
-  path: run-a-script-resource/the-script.sh
+  path: sh
+  args: [run-a-script-resource/the-script.sh]
